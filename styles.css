@@ -1,0 +1,88 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: black;
+    color: white;
+}
+
+h1 {
+    color: hotpink;
+    text-align: center;
+    font-size: 3em;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 5px rgba(255, 105, 180, 0.8);
+}
+
+h2 {
+    color: hotpink;
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#img-div {
+    text-align: center;
+    margin: 20px 0;
+    border: 2px solid hotpink;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: rgba(255, 105, 180, 0.1);
+}
+
+#image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+#img-caption {
+    font-style: italic;
+    color: white;
+    margin-top: 10px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+#tribute-info {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: rgba(255, 105, 180, 0.2);
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(255, 105, 180, 0.5);
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background-color: hotpink;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+ul li:hover {
+    background-color: lightpink;
+}
+
+#tribute-link {
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+    color: hotpink;
+    text-decoration: none;
+    padding: 10px;
+    border: 2px solid hotpink;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+#tribute-link:hover {
+    background-color: hotpink;
+    color: black;
+}
